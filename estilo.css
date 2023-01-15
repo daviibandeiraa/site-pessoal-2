@@ -75,9 +75,8 @@ body {
     font-size: 64px;
     line-height: 75px;
     color: #FFFFFF;
-    margin-top: 363px;
     margin-left: 121px;
-    display: flex;
+
 
 }
 
@@ -88,17 +87,48 @@ body {
     font-size: 24px;
     line-height: 41px;
     color: #FFFFFF;
-    margin-top: 29px;
     margin-left: 121px;
-    display: flex;
+
 }
 
 .foto {
     background: url(guto.jpg);
     filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
     width: 500px;
-    
-    
+    margin-left: 815px;
+    margin-top: 190px;
+}
 
+.meusprojetos {
+    width: 345px;
+    height: 83px;
+    border-radius: 8px;
+    background: #DBD5B2;
+    margin-left: 122px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    border-color: #DBD5B2;
 
+    color: #110637;
+}
+
+.linkdin{
+    margin-top: 115.29px;
+    margin-left: 123.29px;
+    margin-right: 22.29px;
+    width: 50px;
+}
+
+.instaicon{
+    margin-right: 22.29px;
+    width: 50px;
+}
+
+.github{
+    margin-left: 20px;
+    width: 55px;
 }
