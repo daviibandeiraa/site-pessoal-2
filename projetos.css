@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Roboto: wght @300 & display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.Glogo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+
+
+}
+
+.menu li {
+    display: inline-block;
+    padding-left: 67px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.menu a {
+    color: black;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+
+
+}
+
+.pesquisaicon {
+    width: 23.44px;
+    height: 23.44px;
+
+}
+
+body {
+    background-color: #54426B;
+}
+
+.titulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+
+
+
+    color: #E9F1F7;
+}
+
+.h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.escrita {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    
+
+
+    color: #FFFFFF;
+}
+
+.linkdin {
+    margin-top: 128px;
+    margin-left: 123.29px;
+    margin-right: 22.29px;
+    width: 50px;
+}
+
+.instaicon {
+    margin-right: 22.29px;
+    width: 50px;
+}
+
+.github {
+    margin-left: 20px;
+    width: 55px;
+}
