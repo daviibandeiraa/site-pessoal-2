@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Roboto: wght @300 & display=swap');
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 
 
-header{
+header {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -17,36 +19,86 @@ header{
     background-size: cover;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header .menu{
+header .menu {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
 }
-header .D-logo li{
+
+.Glogo {
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
-    
+
+
 }
 
-header .menu li{
+.menu li {
     display: inline-block;
+    padding-left: 67px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 
 }
-header .menu a{
-  color: black;
-  padding: 8px 12px;
-  border-radius: 3px;
-  transition: 200ms;
 
-  
+.menu a {
+    color: black;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+
+
 }
 
-body{
+.pesquisaicon {
+    width: 23.44px;
+    height: 23.44px;
+
+}
+
+body {
     background-color: #54426B;
+}
+
+.Titulo {
+    font-family: 'Roboto', sem serifa;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-top: 363px;
+    margin-left: 121px;
+    display: flex;
+
+}
+
+.subtitulo {
+    font-family: 'Roboto', sem serifa;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-top: 29px;
+    margin-left: 121px;
+    display: flex;
+}
+
+.foto {
+    background: url(guto.jpg);
+    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
+    width: 500px;
+    
+    
+
+
 }
