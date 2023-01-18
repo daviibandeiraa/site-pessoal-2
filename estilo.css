@@ -68,14 +68,20 @@ body {
     background-color: #54426B;
 }
 
+
+
+
+
 .Titulo {
     font-family: 'Roboto', sem serifa;
     font-style: normal;
-    font-weight: 900;
+    weight: 900;
     font-size: 64px;
-    line-height: 75px;
+    height: 75px;
     color: #FFFFFF;
     margin-left: 121px;
+    margin-top: 365px;
+    width: 405px;
 
 
 }
@@ -88,18 +94,27 @@ body {
     line-height: 41px;
     color: #FFFFFF;
     margin-left: 121px;
+    width: 453px;
+
 
 }
 
 .foto {
-    background: url(guto.jpg);
+    background: url(foto.png);
     filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
     width: 500px;
-    margin-left: 815px;
-    margin-top: 190px;
+    height: 500px;
+    margin-left: 790px;
+    top: 289.5px;
+    transform: rotate(-6deg);
+
+
+
+
 }
 
 .meusprojetos {
+    position: absolute;
     width: 345px;
     height: 83px;
     border-radius: 8px;
@@ -107,28 +122,29 @@ body {
     margin-left: 122px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 200;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
     border-color: #DBD5B2;
+    margin-top: 200px;
 
     color: #110637;
 }
 
-.linkdin{
+.linkdin {
     margin-top: 115.29px;
     margin-left: 123.29px;
     margin-right: 22.29px;
     width: 50px;
 }
 
-.instaicon{
+.instaicon {
     margin-right: 22.29px;
     width: 50px;
 }
 
-.github{
+.github {
     margin-left: 20px;
     width: 55px;
 }
