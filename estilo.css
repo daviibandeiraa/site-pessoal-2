@@ -158,11 +158,14 @@ body {
 }
 
 
-.item-1 {}
 
 .item-2 {
     margin-left: 200px;
     margin-top: 150px;
+    width: 400px;
+    height: 400px;
+    background-color: #DBD5B2;
+    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
 }
 
 .redes-sociais {
