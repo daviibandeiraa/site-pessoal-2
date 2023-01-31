@@ -12,8 +12,8 @@
 
 
 header {
-    width: 100%;
-    height: 100%;
+    width: 1480px;
+    height: 70px;
     background-color: white;
     background-position: center;
     background-size: cover;
@@ -24,16 +24,16 @@ a {
 }
 
 header .menu {
-    width: 100%;
+    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    padding: 4px;
 }
 
 .Glogo {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
 
 
 }
@@ -43,15 +43,15 @@ header .menu {
     padding-left: 67px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 10px;
 
 }
 
 .menu a {
     color: black;
-    padding: 8px 12px;
+    padding: 0px 5px;
     border-radius: 3px;
     transition: 200ms;
 
@@ -59,8 +59,9 @@ header .menu {
 }
 
 .pesquisaicon {
-    width: 23.44px;
-    height: 23.44px;
+    width: 20px;
+    height: 20px;
+    
 
 }
 
@@ -75,13 +76,10 @@ body {
 .Titulo {
     font-family: 'Roboto', sem serifa;
     font-style: normal;
-    weight: 900;
-    font-size: 64px;
-    height: 75px;
+    font-size: 45px;
     color: #FFFFFF;
     margin-left: 121px;
-    margin-top: 365px;
-    width: 405px;
+    margin-top: 200px;
 
 
 }
@@ -90,7 +88,7 @@ body {
     font-family: 'Roboto', sem serifa;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 41px;
     color: #FFFFFF;
     margin-left: 121px;
@@ -102,10 +100,8 @@ body {
 .foto {
     background: url(foto.png);
     filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
-    width: 500px;
-    height: 500px;
-    margin-left: 790px;
-    top: 289.5px;
+    width: 400px;
+    height: 400px;
     transform: rotate(-6deg);
 
 
@@ -115,33 +111,35 @@ body {
 
 .meusprojetos {
     position: absolute;
-    width: 345px;
-    height: 83px;
+    width: 230px;
+    height: 60px;
     border-radius: 8px;
     background: #DBD5B2;
     margin-left: 122px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 19px;
     line-height: 28px;
     text-align: center;
     border-color: #DBD5B2;
-    margin-top: 200px;
+    margin-top: 30px;
 
     color: #110637;
 }
 
 .linkdin {
-    margin-top: 115.29px;
-    margin-left: 123.29px;
-    margin-right: 22.29px;
+    margin-right: 10px;
+    size: 50px;
     width: 50px;
 }
 
 .instaicon {
-    margin-right: 22.29px;
+    margin-right: 10px;
     width: 50px;
+    size: 50px;
+    height: 50px;
+
 }
 
 .github {
@@ -153,9 +151,6 @@ body {
     background-color: black;
     width: 100%;
     height: 1326px;
-
-    
-
     
 
 }
@@ -169,5 +164,30 @@ body {
     
     
     
+
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    /*justify-content: space-evenly;*/
+    align-items: flex-start;
+
+
+}
+
+
+
+.item-2 {
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 400px;
+    height: 400px;
+    background-color: #DBD5B2;
+    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
+}
+
+.redes-sociais {
+    margin-left: 120px;
 
 }

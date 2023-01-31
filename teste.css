@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    /*justify-content: space-evenly;*/
+    align-items: flex-start;
+    margin-top: 262px;
+    margin-left: 122px;
+    
+
+}
+
+
+.item-1{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+
+}
+
+.item-2{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin-left: 241px;
+    
+}
