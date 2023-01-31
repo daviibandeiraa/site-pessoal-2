@@ -12,7 +12,7 @@
 
 
 header {
-    width: 1480px;
+    width: 100%px;
     height: 70px;
     background-color: white;
     background-position: center;
@@ -24,11 +24,12 @@ a {
 }
 
 header .menu {
-    width: 1440px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px;
+    padding: 8px;
+    margin-right: 40px;
 }
 
 .Glogo {
@@ -61,7 +62,7 @@ header .menu {
 .pesquisaicon {
     width: 20px;
     height: 20px;
-    
+    margin-right: 20px;
 
 }
 
@@ -91,17 +92,7 @@ body {
     color: #FFFFFF;
 }
 
-.escrita {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 41px;
-    
 
-
-    color: #FFFFFF;
-}
 
 
 .linkdin {
@@ -121,42 +112,49 @@ body {
     width: 55px;
 }
 
-.escritas{
- margin-left: 121px;
- margin-top: 363px;
-}
 
-.foto{
-    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
-    margin-left: 1500px;
-    display: flex;
-    transform: rotate(-6deg);
-}
 .container {
     display: flex;
     /* flex-direction: row; */
     /*justify-content: space-evenly;*/
     align-items: flex-start;
-}
 
 
-
-.item-2 {
-    margin-left: 200px;
-    margin-top: 150px;
-    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
-    width: 300px;
-    height: 300px;
 }
 
 .item-1{
     margin-top: 262px;
-    margin-left: 120px;
+    margin-left: 122px;
     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    
 
+
+    color: #FFFFFF;
 }
 
-.foto-projeto{
-    width: 200px;
-    height: 200px;
+.item-2 {
+    margin-left: 250px;
+    margin-top: 150px;
+    width: 400px;
+    height: 400px;
+    background-color: #DBD5B2;
+    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
+  
+}
+
+.fotinho{
+    
+    filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
+    width: 500px;
+    height: 500px;
+    transform: rotate(-6deg);
+}
+
+.redes-sociais{
+    margin-top: 120px;
+    
 }
