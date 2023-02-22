@@ -57,16 +57,6 @@ header .menu {
 
 
 }
-
-.pesquisaicon {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
-
-}
-
-
-
 body {
     background-color: #54426B;
 }
@@ -102,8 +92,8 @@ body {
 .foto {
     background: url(foto.png);
     filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     transform: rotate(-6deg);
 
 
@@ -164,8 +154,8 @@ body {
 .item-2 {
     margin-left: 200px;
     margin-top: 150px;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: #DBD5B2;
     filter: drop-shadow(0px 24px 48px rgba(0, 0, 0, 0.5));
 }

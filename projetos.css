@@ -41,7 +41,7 @@ header .menu {
 
 .menu li {
     display: inline-block;
-    padding-left: 67px;
+    margin-right: 80px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
@@ -59,12 +59,6 @@ header .menu {
 
 }
 
-.pesquisaicon {
-    width: 20px;
-    height: 20px;
-    margin-right: 20px;
-
-}
 
 
 body {
@@ -96,7 +90,7 @@ body {
 
 
 .linkdin {
-    margin-top: 128px;
+    margin-top: 110px;
     margin-left: 123.29px;
     margin-right: 22.29px;
     width: 50px;
@@ -125,7 +119,7 @@ body {
 }
 
 .item-1{
-    margin-top: 262px;
+    margin-top: 242px;
     margin-left: 122px;
     font-family: 'Roboto';
     font-style: normal;
@@ -157,6 +151,6 @@ body {
 }
 
 .redes-sociais{
-    margin-top: 120px;
+    margin-top: 100px;
     
 }
